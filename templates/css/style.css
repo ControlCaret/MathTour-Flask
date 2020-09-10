@@ -1,0 +1,56 @@
+html {
+	background-color: white;
+	color: black;
+}
+
+img {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+div {
+	
+}
+
+.card {
+	box-sizing: border-box;
+	max-width: 600px;
+	background-color: white;
+	color: black;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	margin-left: auto !important;
+	margin-right: auto !important;
+	padding: 2em 0;
+	border-radius: 30px;
+	line-height: 25px;
+	box-shadow: 5px 10px 10px #ccc;
+}
+
+.card > h1 {
+	margin: 0.5em 0 0.5em 1em;
+	padding: 0;
+	word-break: keep-all;
+}
+
+.card > h2 {
+	margin: 0 0 0 1em;
+}
+
+.card > p {
+	margin: 0.5em 0;
+	padding: 0.5em 0 0.5em 0.5em;
+	color: black;
+	background-color: white;
+}
+
+.card.green {
+	background: linear-gradient(150deg, #39ef74, #4600f1 100%);
+	color: white;
+}
+
+.card.purple {
+	background: linear-gradient(150deg, #f731db, #4600f1 100%);
+	color: white;
+}
