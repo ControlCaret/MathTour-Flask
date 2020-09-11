@@ -4,22 +4,21 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>{{displayTitle}}</title>
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
 </head>
 <body>
 	<div class="card green">
 		<h1>{{displayTitle}}</h1>
 		<img src="https://onaliternote.files.wordpress.com/2016/11/wp-1480230666843.jpg" alt="example">
-		<h2>asdasd</h2>
+		<h2>Sub title 1</h2>
 		<p>
-			{{displayText}}<br>
-			Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt deleniti, pariatur magni repudiandae quod accusamus totam necessitatibus deserunt id modi et voluptate quae natus facere repellendus impedit eos aut doloribus.
+			{{displayText}}
 		</p>
-		<h2>asdasd</h2>
+		<h2>Sub title 2</h2>
 		<p>{{displayProblem}}</p>
 		<form action="POST", action="/check">
-			<input type="button">
-			<input type="button">
+			<input type="button" class="O" value="O">
+			<input type="button" class="X" value="X">
 		</form>
 	</div>
 </body>

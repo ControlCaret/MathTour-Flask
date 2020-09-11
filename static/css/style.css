@@ -9,10 +9,6 @@ img {
 	padding: 0;
 }
 
-div {
-	
-}
-
 .card {
 	box-sizing: border-box;
 	max-width: 600px;
@@ -22,7 +18,7 @@ div {
 	margin-bottom: 0.5em;
 	margin-left: auto !important;
 	margin-right: auto !important;
-	padding: 2em 0;
+	padding: 2em 0 4em 0;
 	border-radius: 30px;
 	line-height: 25px;
 	box-shadow: 5px 10px 10px #ccc;
@@ -43,6 +39,24 @@ div {
 	padding: 0.5em 0 0.5em 0.5em;
 	color: black;
 	background-color: white;
+}
+
+.card > form > input[type=button] {
+	float: left;
+	width: 50%;
+	height: 3em;
+	overflow: hidden;
+	border: 0;
+}
+
+input[type=button].O {
+	background-color: red;
+	color: white;
+}
+
+input[type=button].X {
+	background-color: green;
+	color: white;
 }
 
 .card.green {
