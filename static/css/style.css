@@ -12,6 +12,7 @@ img {
 .card {
 	box-sizing: border-box;
 	max-width: 600px;
+	height: auto;
 	background-color: white;
 	color: black;
 	margin-top: 0.5em;
@@ -22,6 +23,7 @@ img {
 	border-radius: 30px;
 	line-height: 25px;
 	box-shadow: 5px 10px 10px #ccc;
+	overflow: hidden;
 }
 
 .card > h1 {
@@ -41,21 +43,26 @@ img {
 	background-color: white;
 }
 
-.card > form > input[type=button] {
+.card > form.ox > input {
 	float: left;
+	overflow: hidden;
 	width: 50%;
 	height: 3em;
-	overflow: hidden;
 	border: 0;
+	margin: 1em auto auto auto;
 }
 
-input[type=button].O {
-	background-color: red;
+input.o {
+	background-color: #ff4444;
+	font-size: 1em;
+	font-weight: bold;
 	color: white;
 }
 
-input[type=button].X {
-	background-color: green;
+input.x {
+	background-color: #00C851;
+	font-size: 1em;
+	font-weight: bold;
 	color: white;
 }
 
