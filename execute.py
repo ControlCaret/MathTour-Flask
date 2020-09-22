@@ -9,9 +9,9 @@ def index():
 @app.route('/oxexample')
 def oxexample():
 	return render_template(
-		'ox.html', 
-		displayTitle = "OX Quiz Example Template", 
-		displayText = "displayText example", 
+		'ox.html',
+		displayTitle = "OX Quiz Example Template",
+		displayText = "displayText example",
 		displayProblem = "displayProblem example",
 		quizNumber = 0
 	)
