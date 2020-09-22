@@ -17,8 +17,9 @@
 		<h2>Sub title 2</h2>
 		<p>{{displayProblem}}</p>
 		<form class="ox" method="POST" action="/check">
-			<input type="submit" class="o" value="O">
-			<input type="submit" class="x" value="X">
+			<input type="submit" name="ox" class="o" value="O">
+			<input type="submit" name="ox" class="x" value="X">
+			<input type="hidden" name="quizNumber" value="{{quizNumber}}">
 		</form>
 	</div>
 </body>
